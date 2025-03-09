@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+input, button, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+}
+
+#results, #final-results {
+    margin-top: 20px;
+}
+
+.result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+}
+
+.success {
+    border-color: green;
+    color: green;
+}
+
+.forbidden {
+    border-color: red;
+    color: red;
+}
+
+#upload-btn {
+    margin-top: 20px;
+}
+
+#progress {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#error-msg {
+    color: red;
+    font-weight: bold;
+}
+
+.results-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-container > div {
+    width: 48%;
+}

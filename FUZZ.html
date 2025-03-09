@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selective Fuzzing Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Selective Fuzzing Tool</h1>
+    <p>Enter a URL pattern with <code>$AP</code> to inject payloads dynamically. Use a custom wordlist or predefined ones.</p>
+
+    <label for="url-pattern">URL Pattern:</label>
+    <input type="text" id="url-pattern" placeholder="e.g., https://$AP.abc.com or https://abc.com/$AP" />
+
+    <div>
+        <label for="wordlist-type">Select Wordlist Source:</label>
+        <select id="wordlist-type">
+            <option value="manual">Write your own wordlist</option>
+            <option value="file">Upload Wordlist File</option>
+            <option value="default">Use Default Wordlist</option>
+        </select>
+    </div>
+
+    <div id="manual-input" style="display:none;">
+        <label for="wordlist-textarea">Enter Wordlist (one word per line):</label>
+        <textarea id="wordlist-textarea" rows="10" placeholder="Enter words here..."></textarea>
+    </div>
+
+    <div id="file-input" style="display:none;">
+        <label for="wordlist">Upload Wordlist (.txt file, one word per line):</label>
+        <input type="file" id="wordlist" accept=".txt" />
+    </div>
+
+    <div id="default-options" style="display:none;">
+        <label for="default-list">Choose a Default Wordlist:</label>
+        <select id="default-list">
+            <option value="sublist">sublist.txt</option>
+            <option value="phplist">phplist.txt</option>
+            <option value="supperlist">supperlist.txt</option>
+        </select>
+    </div>
+
+    <button id="fuzz-btn">Start Fuzzing</button>
+    <button id="stop-btn" disabled>Stop Fuzzing</button>
+
+    <div id="progress"></div>
+    <div id="error-msg"></div>
+
+    <div class="results-container">
+        <div id="results">
+            <h2>All Scanned Status Codes:</h2>
+        </div>
+
+        <div id="final-results">
+            <h2>Final Results (200 & 403):</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
