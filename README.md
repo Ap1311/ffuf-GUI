@@ -93,6 +93,7 @@ Issue                   | Cause                       | Solution
 - [![Gmail](https://img.shields.io/badge/Gmail-Aarav-red?style=for-the-badge&logo=gmail)](mailto:aaravprogrammers@gmail.com)
 
 - [![Telegram](https://img.shields.io/badge/Telegram-Aarav-skyblue?style=for-the-badge&logo=telegram)](https://t.me/aaravprogrammers)
+  
 - [![WhatsApp](https://img.shields.io/badge/WhatsApp-Aarav-green?style=for-the-badge&logo=whatsapp)](https://wa.me/+919429252709)
 
 
