@@ -1,4 +1,19 @@
-# ffuf-GUI
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1 align="center">ffuf-GUI</h1><br>
+<p align="center">
+    <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge"><br>
+    <img src="https://img.shields.io/badge/Written%20In-HTML-blue?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-CSS-blue?style=flat-square">
+    <img src="https://img.shields.io/badge/Written%20In-JS-blue?style=flat-square"><br>
+    <img src="https://img.shields.io/badge/Author-AaravShah-purple?style=flat-square">
+</p></body></html>
 ffuf-GUI is a web-based fuzzing tool inspired by ffuf, designed for penetration testing and security assessments. It provides a user-friendly interface to automate fuzzing tasks directly from a browser, supporting GET, POST, and custom header injections. With real-time results, response filtering, and exportable reports, WebFuzz is an efficient tool for security researchers and ethical hackers. 🚀
 
 # 📜 Description
